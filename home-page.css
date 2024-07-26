@@ -1,0 +1,119 @@
+body{
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+/* MAIN CONTAINER */
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+/* MAIN CONTAINER */
+
+/* NAV BAR */
+.nav{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.left-nav{
+    /*border: 1px solid green;*/
+    width: max-content;
+}
+
+.right-nav{
+    width: 80%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.option{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #1C592F;
+    font-size: 20px;
+}
+
+.active {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #E2B622;
+    font-size: 20px;
+
+}
+/* NAV BAR */
+
+/* HERO SECTION */
+.hero {
+    background-image: url(../../assets/hero_2.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+    color: #1C592F;
+    margin: 0;
+
+}
+
+span {
+    color: #E2B622;
+}
+/* HERO SECTION */
+
+/* FOOTER SECTION */
+.contacts{
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+h3{
+    text-align: left;
+    padding-left: 20px;
+}
+.contact-list{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.contact-1, .contact-2, .contact-3, .contact-4{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-type: none;
+}
+
+.footer-down{
+    background-color: #1C592F;
+    display: flex;
+    justify-content: center;
+}
+/* FOOTER SECTION */
+
